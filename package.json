@@ -8,18 +8,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "styled-components": "^5.3.3"
+    "@vanilla-extract/css": "^1.20.1",
+    "@vanilla-extract/dynamic": "^2.1.5",
+    "@vanilla-extract/next-plugin": "^2.5.2",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/node": "16.11.6",
-    "@types/react": "17.0.34",
-    "@types/styled-components": "^5.1.15",
-    "babel-plugin-styled-components": "^1.13.3",
-    "eslint": "7",
-    "eslint-config-next": "12.0.2",
-    "typescript": "4.4.4"
-  }
+    "@eslint/eslintrc": "^3.3.5",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^15.5.18",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
 }
